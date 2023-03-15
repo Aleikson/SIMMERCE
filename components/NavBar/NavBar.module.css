@@ -3,14 +3,13 @@
   height: 90px;
   background-color: #eaf6f6;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .logo a{
   text-decoration: none;
-  color: #5585b5;
-  margin-left: 20px;
+  color: #5585b5;  
   font-size: 25px
 }
 
@@ -37,9 +36,8 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    height: auto;
+  .navbar {   
+    height: 80px;
   }
 
   .links {
