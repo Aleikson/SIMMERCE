@@ -19,6 +19,7 @@
 .product {
     padding: 10px;
     width: 180px;
+    min-height: 225px;
     border-radius: 15px;  
     margin-top: 15px;  
     display: flex;
@@ -30,6 +31,7 @@
 
 .product img {
     width: 150px;
+    height: 225px;
 }
 
 .product .description {

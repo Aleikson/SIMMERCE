@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../ShopContext";
 import styles from "./Home.module.css"
+import Image from "../../imgLoad.js"
 
 export const Items = (props, img) => {
   const { id, productName, price, productImage } = props.data;
@@ -9,7 +10,7 @@ export const Items = (props, img) => {
 
   return (
     <div className={styles.product}>
-      <img src={productImage} alt="" />
+      <Image src={productImage} alt="" />
       <div className={styles.description}>
         <p>
           <b>{productName}</b>
