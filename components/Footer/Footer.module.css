@@ -3,10 +3,11 @@
     bottom: 0;
     left: 0;
     width: 100%;   
-    background-color: #eaf6f6;    
+    background-color: #dbd8e3;    
 }
 
 .footerText {
     text-align: center;
     margin-top: 20px;
+    color: #2a2438;
 }

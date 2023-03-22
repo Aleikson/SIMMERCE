@@ -42,25 +42,21 @@
     transition: 0.3s ease-in;
 }
 
-.description{
-    color: #5585b5;
-}
-
 .addToCartBttn {
-    background: #bbe4e9;    
+    background: #c7b198;    
     min-width: 100px;
     padding: 5px 10px 5px 10px;
     border-radius: 10px;
     cursor: pointer;
     border: none;     
-    color: #323643;
+    color: #2a2438;
     box-sizing: border-box;
     transition: 0.1s;
 }
 
 .addToCartBttn:hover {  
     outline: none;
-    box-shadow: 0 0 0 3px #bbe4e9, 0 0 0 4px #79c2d0;
+    box-shadow: 0 0 0 3px #f0ece2, 0 0 0 4px #f0ece2;
 }
 
 @media only screen and (max-width: 768px) {

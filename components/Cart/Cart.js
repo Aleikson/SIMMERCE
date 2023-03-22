@@ -11,7 +11,7 @@ export const Cart = () => {
   const navigate = useNavigate();
 
   return (
-    <div className={styles.cart}>
+    <div >
       <div>
         <h1>Your Cart Items</h1>
       </div>

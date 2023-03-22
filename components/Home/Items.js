@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../ShopContext";
 import styles from "./Home.module.css"
-import Image from "../../imgLoad.js"
+import Image from "../ImgLoad/imgLoad"
 
 export const Items = (props, img) => {
   const { id, productName, price, productImage } = props.data;

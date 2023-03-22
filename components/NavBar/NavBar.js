@@ -7,9 +7,7 @@ import { ShopContext } from "../ShopContext";
 export const Navbar = () => {
 
   const svgCart = {
-    color: 'white',
-    background: '#5585b5',
-    borderRadius: '50%',
+    color: '#2a2438',  
     marginLeft: '15px'
   };
 
