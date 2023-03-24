@@ -36,6 +36,78 @@ export const Products = [
         productName: "Grandma’s Specials",
         price: 42.0,
         productImage: images('./product6.jpg'),
+    },
+    {
+        id: 7,
+        productName: "Grandma’s Specials",
+        price: 42.0,
+        productImage: images('./product7.jpg'),
+    },
+    {
+        id: 8,
+        productName: "Grandma’s Specials",
+        price: 42.0,
+        productImage: images('./product8.jpg'),
+    },
+    {
+        id: 9,
+        productName: "Grandma’s Specials",
+        price: 42.0,
+        productImage: images('./product9.jpg'),
+    },
+    {
+        id: 10,
+        productName: "Grandma’s Specials",
+        price: 42.0,
+        productImage: images('./product10.jpg'),
+    },
+    {
+        id: 11,
+        productName: "Grandma’s Specials",
+        price: 42.0,
+        productImage: images('./product11.jpg'),
+    },
+    {
+        id: 12,
+        productName: "Grandma’s Specials",
+        price: 42.0,
+        productImage: images('./product12.jpg'),
+    },
+    {
+        id: 13,
+        productName: "Grandma’s Specials",
+        price: 42.0,
+        productImage: images('./product13.jpg'),
+    },
+    {
+        id: 14,
+        productName: "Grandma’s Specials",
+        price: 42.0,
+        productImage: images('./product14.jpg'),
+    },
+    {
+        id: 15,
+        productName: "Grandma’s Specials",
+        price: 42.0,
+        productImage: images('./product15.jpg'),
+    },
+    {
+        id: 16,
+        productName: "Grandma’s Specials",
+        price: 42.0,
+        productImage: images('./product16.jpg'),
+    },
+    {
+        id: 17,
+        productName: "Grandma’s Specials",
+        price: 42.0,
+        productImage: images('./product17.jpg'),
+    },
+    {
+        id: 18,
+        productName: "Grandma’s Specials",
+        price: 42.0,
+        productImage: images('./product18.jpg'),
     }
 ];
 
