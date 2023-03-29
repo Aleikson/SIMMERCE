@@ -9,29 +9,29 @@
 }
 
 .products {
-    width: 100%;
-    height: auto;
     display: grid;
-    grid-template-columns: 2fr 0fr 2fr;
-    place-items: center;
+    grid-template-columns: repeat(5, 180px);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 10px;
 }
 
 .product {
     padding: 10px;
     width: 150px;
     min-height: 225px;
-    border-radius: 15px;  
-    margin-top: 15px;  
+    border-radius: 15px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 20%);
 }
 
 .product img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 140px;
 }
 
 .product .description {
@@ -43,20 +43,43 @@
 }
 
 .addToCartBttn {
-    background: #ee9ca7;    
+    background: #ee9ca7;
     min-width: 100px;
     padding: 5px 10px 5px 10px;
     border-radius: 10px;
     cursor: pointer;
-    border: none;     
+    border: none;
     color: #2a2438;
     box-sizing: border-box;
     transition: 0.1s;
 }
 
-.addToCartBttn:hover {  
+.addToCartBttn:hover {
     outline: none;
     box-shadow: 0 0 0 3px #f0ece2, 0 0 0 4px #f0ece2;
+}
+
+.pagination {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button {
+    cursor: pointer;
+    margin: 1px;
+    min-width: 30px;
+}
+
+button.active {
+    background-color: #ee9ca7;
+    color: #2a2438;
+}
+
+@media only screen and (max-width: 900px) {
+    .products {
+        grid-template-columns: repeat(4, 180px);
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -64,13 +87,13 @@
         font-size: 30px;
     }
 
-    .products {
-        grid-template-columns: 1fr;
+    .product {
+        margin-top: 15px;
+        height: auto;
     }
 
-    .product {
-        margin-top: 15px;        
-        height: auto;
+    .products {
+        grid-template-columns: repeat(2, 180px);
     }
 }
 
@@ -79,11 +102,27 @@
         font-size: 24px;
     }
 
-    .product img {        
+    .products {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 50%));
+    }
+
+    .product img {
         margin-top: 10px;
     }
 
     .addToCartBttn {
+        min-width: 80px;
+        font-size: 12px;
+    }
+
+    .pagination {
+        margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pagination button {
+        margin: 5px;
         min-width: 80px;
         font-size: 12px;
     }
