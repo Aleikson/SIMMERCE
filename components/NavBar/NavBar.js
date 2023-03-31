@@ -38,14 +38,14 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <div  className={`${styles.navbar} ${isFixed ? styles.fixed : ""}`}>
+    <div className={`${styles.navbar} ${isFixed ? styles.fixed : ""}`}>
       <div className={styles.logo}><Link to="/"> Cupcake Palace </Link></div>
       <div className={styles.links}>
-      <a className={styles.shop} href="#shopping" onClick={handleClick}>Shop</a>      
+        <a className={styles.shop} href="#shopping" onClick={handleClick}>Shop</a>
         <Link to="/cart">
           <ShoppingCart size={32} style={svgCart} />
-        </Link>      
-        {itemCount > 0 && <span className={styles.itemCount}>{itemCount}</span>}
+          {itemCount > 0 && <span className={styles.itemCount}>{itemCount}</span>}
+        </Link>
       </div>
     </div>
   );
