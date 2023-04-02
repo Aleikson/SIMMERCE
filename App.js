@@ -6,12 +6,14 @@ import { Shopping } from './components/Shopping/Shopping';
 import { Cart } from './components/Cart/Cart';
 import Footer from './components/Footer/Footer';
 import { ShopContextProvider } from "./components/ShopContext";
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
       <ShopContextProvider>
         <Router>
+          <ScrollToTop />
           <Navbar />
           <div className="mainContainer">
             <Routes>
