@@ -24,16 +24,17 @@
 
 .content h2 {
     color: #fcfefe;
-    font-size: 70px;
+    font-size: 50px;
     text-transform: uppercase;
     font-weight: 800;
-    letter-spacing: 2px;
     line-height: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .content p {
     font-size: 22px;
+    margin: 0px;
+    color: #2a2438;
 }
 
 .imgPrincipal {
@@ -72,7 +73,7 @@
         margin: 0;
     }
 
-    .content p{
+    .content p {
         font-size: 1.5rem;
     }
 

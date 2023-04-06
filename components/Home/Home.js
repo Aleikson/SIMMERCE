@@ -7,8 +7,8 @@ export const Home = () => {
         <div className={Styles.container}>
             <div className="content-wrapper">
                 <div className={Styles.content}>
-                    <h2>Text Here</h2>
-                    <p>Lorem impsun Lorem impsun Lorem impsun Lorem impsun Lorem impsun Lorem impsun Lorem impsun</p>
+                    <h2>Irresistible Flavors</h2>
+                    <p>Don't waste any more time and try our fresh delicacies. Your taste buds will thank you!</p>
                 </div>
                 <img className={Styles.imgPrincipal} src={imgPrincipal} alt=""></img>
             </div>
