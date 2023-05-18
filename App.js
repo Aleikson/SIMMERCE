@@ -14,6 +14,7 @@ function App() {
       <ShopContextProvider>
         <Router>
           <ScrollToTop />
+          <h1>teste</h1>
           <Navbar />
           <div className="mainContainer">
             <Routes>
