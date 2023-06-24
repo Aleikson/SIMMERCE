@@ -40,8 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  },
   "homepage": "https://Aleikson.github.io/e-commerce"
 }
