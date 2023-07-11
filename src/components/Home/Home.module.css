@@ -69,7 +69,8 @@
     }
 
     .content h2 {
-        text-align: center;
+        text-align: start;
+        margin: 0;
     }
 
     .content p {
@@ -107,21 +108,21 @@
     }
 
     .imgPrincipal {
-        max-width: 40%;
-        transform: translate(-50%, -50%);
-        left: 80%;
-        top: 50%;
+        left: 70%;
+        margin: 0;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .content {
-        max-width: 100%;  
+        max-width: 100%;
     }
 
     .imgPrincipal {
-        max-width: 100%;
-        left: 50%;  
+        max-width: 370px;
+        left: 50%;
+        top: 65%;
+        margin: 0;
     }
 }
 
