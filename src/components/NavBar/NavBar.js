@@ -1,8 +1,9 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ShoppingCart } from "phosphor-react";
-import styles from "./NavBar.module.css"
+import Styles from "./NavBar.module.css"
 import { ShopContext } from "../ShopContext";
+import logo from '../../assets/logo.svg'
 
 export const Navbar = () => {
 
@@ -17,7 +18,7 @@ export const Navbar = () => {
   );
 
   const [isFixed, setIsFixed] = useState(false);
- 
+
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -37,14 +38,23 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <div className={`${styles.navbar} ${isFixed ? styles.fixed : ""}`}>
-      <div className={styles.logo}><Link to="/" onClick={scrollToTop}> Cupcake Palace </Link></div>
-      <div className={styles.links}>
-        <a className={styles.shop} href="#shopping">Shop</a>
-        <Link to="/cart">
-          <ShoppingCart size={32} style={svgCart} />
-          {itemCount > 0 && <span className={styles.itemCount}>{itemCount}</span>}
-        </Link>
+    <div className={`${Styles.navbar} ${isFixed ? Styles.fixed : ""}`}>
+        <div className={Styles.navbarContent}>
+      <div className={Styles.logo}>
+        <Link to="/" onClick={scrollToTop}>
+        <img src={logo} alt="Cupcake Palace Logo" />
+           Cupcake Palace
+           </Link>
+           </div>
+      <div className={Styles.links}>
+          <a className={Styles.shop} href="#shopping">Shop</a>
+          <a className={Styles.shop} href="/">Galery</a>
+          <a className={Styles.shop} href="/">Contact</a>
+          <Link to="/cart">
+            <ShoppingCart size={32} style={svgCart} />
+            {itemCount > 0 && <span className={Styles.itemCount}>{itemCount}</span>}
+          </Link>
+        </div>
       </div>
     </div>
   );

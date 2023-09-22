@@ -7,6 +7,7 @@ import { Cart } from './components/Cart/Cart';
 import Footer from './components/Footer/Footer';
 import { ShopContextProvider } from "./components/ShopContext";
 import ScrollToTop from './components/ScrollToTop';
+import Gallery from './components/gallery/Gallery';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Navbar />
           <div className="mainContainer">
             <Routes>
-              <Route path="/" element={<div> <Home /> <Shopping /> </div>} />
+              <Route path="/" element={<div> <Home /> <Gallery /> <Shopping /></div>} />
               <Route path='/shopping' element={<Shopping />} />
               <Route path="/cart" element={<Cart />} />
             </Routes>
