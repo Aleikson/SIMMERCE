@@ -1,7 +1,7 @@
 .wrapper {
     display: grid;
     height: auto;
-    width: 65%;
+    width: 100%;
 }
 
 .img {

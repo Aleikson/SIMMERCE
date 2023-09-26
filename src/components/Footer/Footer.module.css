@@ -1,13 +1,159 @@
-.container{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;   
-    background-color: #ffdde1;    
+.footerDistributed {
+    background: #922724;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
 }
 
-.footerText {
+.footerDistributed .footerLeft,
+.footerDistributed .footerCenter,
+.footerDistributed .footerRight {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footerDistributed .footerLeft {
+    width: 40%;
+}
+
+.footerDistributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footerDistributed .footerLinks {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footerDistributed .footerLinks a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footerDistributed .footerCompanyName {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footerDistributed .footerCenter {
+    width: 35%;
+}
+
+.footerDistributed .footerCenter i {
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
     text-align: center;
-    margin-top: 20px;
-    color: #2a2438;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footerDistributed .footerCenter i.faEnvelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footerDistributed .footerCenter p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+	margin-bottom: 5px;
+}
+
+.footerDistributed .footerCenter p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+	margin-bottom: 5px;
+}
+
+.footerDistributed .footerCenter p a {
+    color: #a3d1e4;
+    text-decoration: none;
+}
+
+.footerDistributed .footerLinks a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footerDistributed .footerLinks .link-1:before {
+    content: none;
+}
+
+.footerDistributed .footerRight {
+    width: 20%;
+}
+
+.footerDistributed .footerCompanyAbout {
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footerDistributed .footerCompanyAbout span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footerDistributed .footerIcons {
+    margin-top: 25px;
+}
+
+.footerDistributed .footerIcons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+    .footerDistributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footerDistributed .footerLeft,
+    .footerDistributed .footerCenter,
+    .footerDistributed .footerRight {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footerDistributed .footerCenter i {
+        margin-left: 0;
+    }
 }

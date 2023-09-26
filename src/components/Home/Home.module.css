@@ -1,47 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
 .container {
     height: 100vh;
     display: flex;
     align-items: flex-start;
-    background-image: url(../../assets/bg4.jpeg);
+    background-image: url(../../assets/bg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
 }
 
 .content {
     display: flex;
-    max-width: 70%;
-    margin-top: 100px;
+    margin-left: 10%;
+    width: 40%;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    text-align: left;
 }
 
 .content h2 {
-    color: #e6fafb;
+    color: #922724;
     font-size: 75px;
     margin: 0;
-    font-family: 'Dancing Script', cursive;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 
 .button {
     background: transparent;
-    border: 2px solid #e6fafb;
+    border: 2px solid #922724;
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
     margin-top: 30px;
     transition: background-image 0.3s;
     padding: 10px 45px;
-    color: #e6fafb;
+    color: #922724;
     text-decoration: none;
 }
 
 .button:hover {
-    background: #000000;
+    background: #970d0a;
+    color: #c8aac8;
     transition: background-color 0.3s;
 }
 

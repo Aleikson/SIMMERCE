@@ -2,12 +2,10 @@
   width: 100%;
   height: auto;
   min-height: 100vh;
-  text-align: center; 
-  background: #faf9e7
-  ;
+  text-align: center;
 }
 
-html{
+html {
   position: relative;
   scroll-behavior: smooth;
 }
@@ -15,7 +13,7 @@ html{
 
 body {
   padding: 0;
-  margin: 0; 
+  margin: 0;
 }
 
 .mainContainer {
@@ -24,6 +22,6 @@ body {
 
 @media only screen and (max-width: 768px) {
   .mainContainer {
-      margin-bottom: 15%;
+    margin-bottom: 15%;
   }
 }

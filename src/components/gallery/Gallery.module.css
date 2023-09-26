@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   font-family: 'Patrick Hand', cursive;
-  background-color: #f5f5f5;
 }
 
 .content {
@@ -15,18 +14,16 @@
 .leftDiv {
   flex: 1 1;
   width: 300px;
-  background: #b30d41;
+  background: #922724;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  border: 2px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .leftDiv h2 {
-  color: #faf8e2;
+  color: #ffffff;
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 10px;
@@ -34,11 +31,11 @@
 
 .leftDiv ul {
   list-style: none;
-  padding: 0; 
+  padding: 0;
 }
 
 .leftDiv li {
-  color: #faf8e2;
+  color: #ffffff;
   text-align: center;
   font-size: 1rem;
   margin-bottom: 5px;
@@ -46,8 +43,8 @@
 
 .leftDiv button {
   background-color: transparent;
-  border: 2px solid #f8f4ca;
-  color: #f8f4ca;
+  border: 2px solid #ffffff;
+  color: #ffffff;
   padding: 10px 20px;
   font-size: 1rem;
   border-radius: 5px;
@@ -55,11 +52,6 @@
   transition: background-color 0.3s;
   width: 50%;
   margin-top: 10px;
-}
-
-.leftDiv button:hover {
-  background-color: #f5f0c6;
-  color: #000000;
 }
 
 .gridItem {
