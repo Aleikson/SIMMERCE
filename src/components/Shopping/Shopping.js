@@ -20,7 +20,7 @@ export const Shopping = () => {
 
     return (
         <div id="shopping" className={styles.container}>
-            <h1>Buy your CupCake</h1>
+            <h1>Choose the Best Cupcake for You</h1>
             <div className={styles.products}>
                 {Products.slice(startIndex, endIndex).map((product, index) => (
                     <Items key={index} data={product} />

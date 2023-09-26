@@ -11,10 +11,10 @@ export const Cart = () => {
   const navigate = useNavigate();
 
   return (
-    <div >
-      <div>
+    <div className={styles.container}>
+      <div className={styles.content}>
         <h1>Your Cart Items</h1>
-      </div>
+      
       <div className={styles.cart}>
         {Products.filter(product => cartItems[product.id] !== 0)
           .map((product, items) => <CartItem key={items} data={product} />)}
@@ -30,6 +30,6 @@ export const Cart = () => {
               navigate("/checkout");
             }} > {" "}Checkout{" "} </button>
         </div>)
-        : (<h1> Your Shopping Cart is Empty</h1>)} </div>
+        : (<h1> Your Shopping Cart is Empty</h1>)} </div></div>
   );
 };
