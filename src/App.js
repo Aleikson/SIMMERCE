@@ -7,7 +7,7 @@ import { Cart } from './components/Cart/Cart';
 import Footer from './components/Footer/Footer';
 import { ShopContextProvider } from "./components/ShopContext";
 import ScrollToTop from './components/ScrollToTop';
-import Gallery from './components/gallery/Gallery';
+import Gallery from './components/Gallery/Gallery';
 
 function App() {
   return (

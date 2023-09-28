@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: transparent;
+
   position: absolute;
   top: 0;
   left: 0;
@@ -19,20 +19,9 @@
   align-items: center;
 }
 
-.fixed {
-  position: fixed;
-  height: 65px;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #922724;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 999;
-}
-
 .logo a {
   text-decoration: none;
-  color: #ffffff;
+  color: #922724;
   font-size: 30px;
   display: flex;
   align-items: flex-end;
@@ -41,7 +30,7 @@
 .logo img {
   width: 40px;
   height: 40px;
-  color: #ffffff;
+  color: #922724;
 }
 
 .links {
@@ -54,7 +43,7 @@
 
 .links a {
   text-decoration: none;
-  color: #ffffff;
+  color: #922724;
   font-size: 25px;
   margin-right: 30px;
   position: relative;
@@ -80,7 +69,7 @@
 
 .shop {
   text-decoration: none;
-  color: #ffffff;
+  color: #922724;
   font-size: 25px;
   margin-right: 30px;
 }

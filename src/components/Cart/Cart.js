@@ -27,7 +27,7 @@ export const Cart = () => {
           <button
             onClick={() => {
               checkout();
-              navigate("/checkout");
+              navigate("/");
             }} > {" "}Checkout{" "} </button>
         </div>)
         : (<h1> Your Shopping Cart is Empty</h1>)} </div></div>
