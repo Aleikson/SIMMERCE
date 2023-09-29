@@ -1,15 +1,11 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ShoppingCart } from "phosphor-react";
-import Styles from "./NavBar.module.css"
+import Styles from "./NavBar.module.css";
 import { ShopContext } from "../ShopContext";
-import logo from '../../assets/logo.svg'
+import { ReactComponent as Logo } from '../../assets/logo.svg';
 
 export const Navbar = () => {
-
-  const svgCart = {
-    color: '#2a2438'
-  };
 
   const { cartItems } = useContext(ShopContext);
   const itemCount = Object.values(cartItems).reduce(
@@ -42,7 +38,7 @@ export const Navbar = () => {
         <div className={Styles.navbarContent}>
       <div className={Styles.logo}>
         <Link to="/" onClick={scrollToTop}>
-        <img src={logo} alt="Cupcake Palace Logo" />
+        <Logo alt="Cupcake Palace Logo" className={Styles.logoImage} />
            Cupcake Palace
            </Link>
            </div>
@@ -51,7 +47,7 @@ export const Navbar = () => {
           <a className={Styles.shop} href="/">Galery</a>
           <a className={Styles.shop} href="/">Contact</a>
           <Link to="/cart">
-            <ShoppingCart size={32} style={svgCart} />
+            <ShoppingCart size={32} />
             {itemCount > 0 && <span className={Styles.itemCount}>{itemCount}</span>}
           </Link>
         </div>

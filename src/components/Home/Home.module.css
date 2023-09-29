@@ -2,47 +2,54 @@
     height: 100vh;
     display: flex;
     align-items: flex-start;
-    background-image: url(../../assets/bg2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .content {
     display: flex;
-    margin-left: 10%;
-    width: 40%;
     flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 60%;
+    z-index: 1;
 }
 
 .content h2 {
-    color: #922724;
+    color: #f4e4ca;
     font-size: 75px;
     margin: 0;
     letter-spacing: 5px;
 }
 
+.content p {
+    color: #f4e4ca;
+    font-size: 18px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
 .button {
     background: transparent;
-    border: 2px solid #922724;
-    border-radius: 4px;
+    border: 2px solid #f4e4ca;
+    color: #f4e4ca;
+    border-radius: 20px;
     font-size: 16px;
     cursor: pointer;
     margin-top: 30px;
     transition: background-image 0.3s;
     padding: 10px 45px;
-    color: #922724;
     text-decoration: none;
 }
 
 .button:hover {
-    background: #970d0a;
-    color: #c8aac8;
+    background: #f4e4ca;
+    color: #000000;
     transition: background-color 0.3s;
 }
 

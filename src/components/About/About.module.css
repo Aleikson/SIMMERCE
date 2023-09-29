@@ -1,6 +1,6 @@
 .aboutContainer {
   text-align: center;
-  height: 100vh;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,30 +32,18 @@
 
 .centeredContent {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 10px;
+  height: 50vh;
   width: 100%;
-  padding-top: 5%;
-}
-
-.leftDiv {
-  flex: 1 1;
-  background: #922724;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  align-items: center;
-  justify-content: space-evenly;
 }
 
 .leftDiv h2 {
-  color: #ffffff;
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
 .leftDiv p{
-  color: #ffffff;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -63,7 +51,6 @@
 .leftDiv button {
   background-color: transparent;
   border: 2px solid #ffffff;
-  color: #ffffff;
   padding: 10px 20px;
   font-size: 1rem;
   border-radius: 5px;
@@ -75,7 +62,38 @@
   text-align: right;
 }
 
-.rightInfo img {
-  max-width: 100%;
-  height: auto;
+.leftDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  justify-content: center;
+}
+
+.imageContainer {
+  flex: 1 1;
+  position: relative;
+  display: flex;
+  max-width: 50%;
+}
+
+.circleImage {
+  width: 70%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+.circleImageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%; 
+  border-radius: 50%; 
+  object-fit: cover;
+  transform: translateX(50%);
+  border: 3px solid white; 
 }
