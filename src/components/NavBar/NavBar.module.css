@@ -4,12 +4,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   z-index: 999;
+}
+
+.navbar.fixed {
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+
+.navbar.fixed .logo a {
+  color: #000;
+}
+
+.navbar.fixed .links a {
+  color: #000;
 }
 
 .navbarContent {
@@ -84,7 +98,7 @@
   height: 15px;
   width: 15px;
   background-color: red;
-  color: #000000;
+  color: #f4e4ca;
   font-size: 12px;
   font-weight: bold;
   border-radius: 50%;
