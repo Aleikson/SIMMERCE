@@ -76,15 +76,6 @@
         top: 3%;
     }
 
-    .content h2 {
-        text-align: start;
-        margin: 0;
-    }
-
-    .content p {
-        text-align: start;
-    }
-
     .imgPrincipal {
         max-width: 50%;
         height: auto;
@@ -96,7 +87,6 @@
 @media only screen and (max-width: 900px) {
     .container {
         justify-content: center;
-        height: auto;
     }
 
     .content-wrapper {
@@ -122,6 +112,7 @@
 }
 
 @media only screen and (max-width: 600px) {
+
     .content {
         max-width: 100%;
     }
@@ -135,6 +126,7 @@
 }
 
 @media only screen and (max-width: 320px) {
+
     .content p {
         display: none;
     }
